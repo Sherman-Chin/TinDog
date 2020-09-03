@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+.white-section {
+  background-color: #fff;
+}
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Title */
+.title-heading {
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.phone-img {
+  width: 60%;
+  transform: rotate(25deg);
+  z-index: 1;
+  position: absolute;
+  right: 30%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Button */
+.download-btn {
+  margin: 5% 3% 10% 0;
+}
+
+/* Features */
+#features {
+  z-index: 2;
+  position: relative;
+}
+
+.feature-text {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%
+}
+
+.features-img {
+  margin: 0 0 1rem;
+  color: #ef8172;
+  width: 10rem;
+}
+
+.features-img:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 0 2% 3%;
+}
+
+/* Pricing */
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-text {
+  font-size: 1.5rem;
+}
+
+.pricing-title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to Action */
+.cta-text {
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer-icon {
+  color: #000;
+  margin: 10px;
+}
